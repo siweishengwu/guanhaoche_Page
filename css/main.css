@@ -1,0 +1,551 @@
+@charset "UTF-8";
+.item_color {
+  color: #e50012 !important; }
+#popDiv{
+  text-align:right;
+  position:absolute;
+  top:50%;
+  left:50%;
+  margin:-220px 0 0 -230px;
+  width:450px;
+  height:470px;
+}
+body {
+  overflow-x: hidden; }
+
+/*导航栏*/
+.home_nav li {
+  margin-left: 1.5rem;
+  float: left;
+  text-align: center; }
+
+.home_nav li:first-child {
+  margin: 0; }
+
+.home_nav li a {
+  display: inline-block;
+  padding: 0 0.375rem;
+  font-size: 0.75rem;
+  color: #fff;
+  line-height: 1.1rem; }
+
+.home_nav li a.active, .home_nav li a:hover {
+  background: #1482e5; }
+
+.home_nav2 li a {
+  color: #1482e5; }
+
+.home_nav2 li a.active, .home_nav2 li a:hover {
+  background: #1482e5;
+  color: #fff; }
+
+.home_nav3 li a.active, .home_nav3 li a:hover {
+  background: #fff;
+  color: #1482e5; }
+
+/*首页*/
+.index_page {
+  height: 100%; }
+
+.index_page .section {
+  width: 100%; }
+
+.index_page .section img {
+  display: block; }
+
+.home_nav {
+  position: fixed;
+  bottom: 2.2rem;
+  left: 50%;
+  z-index: 99;
+  margin-left: -8.95rem; }
+
+.index_page .flotage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1; }
+
+.index_page .page_tile {
+  color: #1482e5;
+  font-size: 1rem;
+  position: absolute;
+  top: 12%;
+  left: 10%;
+  z-index: 999; }
+
+.index_page .page1 {
+  background: url(../images/home_bg1.jpg) no-repeat;
+  background-size: cover;
+  background-position: left bottom; }
+
+.index_page .page1 .con {
+  position: absolute;
+  z-index: 99;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-60%); }
+
+.index_page .page1 img {
+  margin: 0 auto; }
+
+.index_page .page1 .logo {
+  width: 12.5%;
+  margin-bottom: 3%; }
+
+.index_page .page1 .page1_t1 {
+  width: 32.4%;
+  margin-bottom: 4%; }
+
+.index_page .page1 .page1_t2 {
+  width: 26%; }
+
+.index_page .page1 .con ul {
+  width: 30.75rem;
+  margin: 8% auto 0; }
+
+.index_page .page1 .con li {
+  float: left;
+  width: 33.33%;
+  text-align: center; }
+
+.index_page .page1 .con li h4 {
+  font-weight: bold;
+  font-size: 0.6rem;
+  line-height: 1; }
+
+.index_page .page1 .con li .num {
+  font-weight: bold;
+  font-size: 1.8rem;
+  color: #1482e5;
+  line-height: 1;
+  margin-top: 0.625rem; }
+
+.index_page .page1 .copyright {
+  text-align: center;
+  line-height: 1rem;
+  font-size: 0.35rem;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.4);
+  width: 17.925rem;
+  position: absolute;
+  bottom: 0.75rem;
+  left: 50%;
+  transform: translateX(-50%); }
+
+.index_page .page2 {
+  background: url(../images/home_bg2.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center; }
+
+.index_page .page2 .con {
+  position: absolute;
+  z-index: 99;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  margin-top: -8.375rem;
+  margin-left: -22.3rem; }
+
+.index_page .page2 .con li {
+  float: left;
+  width: 8.875rem;
+  margin-left: 0.05rem; }
+
+.index_page .page2 .con li img {
+  width: 100%;
+  display: block;
+  height: 12.2rem; }
+
+.index_page .page2 .con li .txt {
+  height: 5.75rem;
+  line-height: 0.9rem;
+  background: #1482e5;
+  color: #fff;
+  font-size: 0.5rem;
+  margin-top: 0.05rem;
+  padding: 1.5rem 1.25rem 0;
+  text-align: justify;
+  box-sizing: border-box; }
+
+.index_page .page2 .con li:nth-child(even) .txt {
+  margin-top: 0;
+  margin-bottom: 0.05rem; }
+
+.index_page .page3 {
+  background: #1482e4; }
+
+.index_page .page3 .page3_t1 {
+  height: 80%;
+  top: 7%;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  z-index: 9; }
+
+.index_page .page3 .page_tile {
+  color: #fff; }
+
+.index_page .page3 .introduce {
+  position: absolute;
+  top: 23%;
+  left: 25%;
+  z-index: 9999; }
+
+.index_page .page3 .introduce dt {
+  font-size: 0.55rem;
+  font-weight: bold;
+  line-height: 1.125rem;
+  color: #fff; }
+
+.index_page .page3 .introduce dd {
+  font-size: 0.5rem;
+  line-height: 0.7rem;
+  position: relative;
+  color: #fff;
+  padding-left: 0.45rem; }
+
+.index_page .page3 .introduce dd::after {
+  content: "";
+  width: 0.175rem;
+  height: 0.175rem;
+  border-radius: 50%;
+  background: #fff;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  margin-top: -0.075rem; }
+
+.index_page .page3 .introduce1 {
+  top: 23%;
+  left: 25%;
+  text-align: right; }
+
+.index_page .page3 .introduce2 {
+  top: 7%;
+  left: 35%;
+  text-align: right; }
+
+.index_page .page3 .introduce3 {
+  top: 65%;
+  left: 47%; }
+
+.index_page .page3 .introduce4 {
+  top: 11%;
+  left: 62%; }
+
+.index_page .page3 .introduce5 {
+  top: 52%;
+  left: 65%; }
+
+.index_page .page3 .introduce6 {
+  top: 36%;
+  left: 68%; }
+
+.index_page .page3 .fuwu {
+  font-size: 0.6rem;
+  padding: 0.65rem 0.875rem;
+  box-shadow: 0 0 0.5rem 0.1rem rgba(255, 255, 255, 0.04);
+  position: absolute;
+  width: 11rem;
+  bottom: 16%;
+  left: 59%;
+  line-height: 1rem;
+  color: #fff;
+  z-index: 9999; }
+
+.index_page .page3 .fuwu span {
+  color: #fcff00;
+  font-weight: bold; }
+
+.index_page .page4 {
+  background: url(../images/home_bg2.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center; }
+
+.index_page .page4 .page4_t {
+  height: 60%;
+  top: 18%;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  z-index: 9; }
+
+.index_page .page5 {
+  background: url(../images/home_bg2.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center; }
+
+.index_page .page5 .page5_t {
+  height: 80%;
+  top: 7%;
+  left: 40%;
+  transform: translateX(-50%);
+  position: absolute;
+  z-index: 9; }
+
+.index_page .page5 .partner {
+  position: absolute;
+  top: 15%;
+  right: 12%;
+  z-index: 999; }
+
+.index_page .page5 .partner h4 {
+  font-size: 0.55rem;
+  color: #1482e5;
+  margin-bottom: 0.65rem; }
+
+.index_page .page5 .partner_list {
+  width: 9.5rem; }
+
+.index_page .page5 .partner_list li {
+  width: 4rem;
+  margin: 0 0.25rem 0.25rem 0;
+  float: left; }
+
+.index_page .page5 .partner_list li img {
+  width: 100%; }
+
+/*重置fullpage*/
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+  width: 0.45rem;
+  height: 0.45rem;
+  border: 0.025rem solid #fff;
+  background: #d1dadf;
+  margin: 0; }
+
+#fp-nav ul li:hover a span, .fp-slidesNav ul li:hover a span, #fp-nav ul li a.active span, .fp-slidesNav ul li a.active span, #fp-nav ul li:hover a.active span, .fp-slidesNav ul li:hover a.active span {
+  width: 0.45rem;
+  height: 0.45rem;
+  margin: 0;
+  background: none; }
+
+/*数字滚动插件的CSS可调整样式*/
+.mt-number-animate {
+  line-height: 1.8rem;
+  height: 1.8rem;
+  /*设置数字显示高度*/
+  overflow: hidden;
+  display: inline-block;
+  position: relative; }
+
+.mt-number-animate .mt-number-animate-dot {
+  width: 1.8rem;
+  /*设置分割符宽度*/
+  line-height: 1.8rem;
+  float: left;
+  text-align: center; }
+
+.mt-number-animate .mt-number-animate-dom {
+  width: 1.25rem;
+  /*设置单个数字宽度*/
+  text-align: center;
+  float: left;
+  position: relative;
+  top: 0; }
+
+.mt-number-animate .mt-number-animate-dom .mt-number-animate-span {
+  width: 100%;
+  float: left;
+  font-size: 1.8rem;
+  line-height: 1.8rem;
+  color: #1482e5; }
+
+#fp-nav.right {
+  right: 0.75rem; }
+
+#fp-nav ul li, .fp-slidesNav ul li {
+  height: 0.5rem;
+  width: 0.325rem;
+  margin: 0.175rem; }
+
+/*动画*/
+@-webkit-keyframes enterTop {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(50%); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0); } }
+@keyframes enterTop {
+  0% {
+    opacity: 0;
+    transform: translateY(50%); }
+  100% {
+    opacity: 1;
+    transform: translateY(0); } }
+@-webkit-keyframes enterBottom {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-50%); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0); } }
+@keyframes enterBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(-50%); }
+  100% {
+    opacity: 1;
+    transform: translateY(0); } }
+@-webkit-keyframes enterLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-50%); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0); } }
+@keyframes enterLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-50%); }
+  100% {
+    opacity: 1;
+    transform: translateX(0); } }
+@-webkit-keyframes enterRight {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(50%); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0); } }
+@keyframes enterRight {
+  0% {
+    opacity: 0;
+    transform: translateX(50%); }
+  100% {
+    opacity: 1;
+    transform: translateX(0); } }
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+.enterTop {
+  -webkit-animation: enterTop 1s ease-in-out 0s both;
+  -moz-animation: enterTop 1s ease-in-out 0s both;
+  -ms-animation: enterTop 1s ease-in-out 0s both;
+  animation: enterTop 1s ease-in-out 0s both; }
+
+.enterTop1 {
+  -webkit-animation: enterTop 1s ease-in-out 1s both;
+  -moz-animation: enterTop 1s ease-in-out 1s both;
+  -ms-animation: enterTop 1s ease-in-out 1s both;
+  animation: enterTop 1s ease-in-out 1s both; }
+
+.enterTop2 {
+  -webkit-animation: enterTop 1s ease-in-out 2s both;
+  -moz-animation: enterTop 1s ease-in-out 2s both;
+  -ms-animation: enterTop 1s ease-in-out 2s both;
+  animation: enterTop 1s ease-in-out 2s both; }
+
+.enterTop3 {
+  -webkit-animation: enterTop 1s ease-in-out 3s both;
+  -moz-animation: enterTop 1s ease-in-out 3s both;
+  -ms-animation: enterTop 1s ease-in-out 3s both;
+  animation: enterTop 1s ease-in-out 3s both; }
+
+.enterTop4 {
+  -webkit-animation: enterTop 1s ease-in-out 4s both;
+  -moz-animation: enterTop 1s ease-in-out 4s both;
+  -ms-animation: enterTop 1s ease-in-out 4s both;
+  animation: enterTop 1s ease-in-out 4s both; }
+
+.enterBottom {
+  -webkit-animation: enterBottom 1s ease-in-out 0s both;
+  -moz-animation: enterBottom 1s ease-in-out 0s both;
+  -ms-animation: enterBottom 1s ease-in-out 0s both;
+  animation: enterBottom 1s ease-in-out 0s both; }
+
+.enterBottom1 {
+  -webkit-animation: enterBottom 1s ease-in-out 1s both;
+  -moz-animation: enterBottom 1s ease-in-out 1s both;
+  -ms-animation: enterBottom 1s ease-in-out 1s both;
+  animation: enterBottom 1s ease-in-out 1s both; }
+
+.enterBottom2 {
+  -webkit-animation: enterBottom 1s ease-in-out 2s both;
+  -moz-animation: enterBottom 1s ease-in-out 2s both;
+  -ms-animation: enterBottom 1s ease-in-out 2s both;
+  animation: enterBottom 1s ease-in-out 2s both; }
+
+.enterBottom3 {
+  -webkit-animation: enterBottom 1s ease-in-out 3s both;
+  -moz-animation: enterBottom 1s ease-in-out 3s both;
+  -ms-animation: enterBottom 1s ease-in-out 3s both;
+  animation: enterBottom 1s ease-in-out 3s both; }
+
+.enterBottom4 {
+  -webkit-animation: enterBottom 1s ease-in-out 4s both;
+  -moz-animation: enterBottom 1s ease-in-out 4s both;
+  -ms-animation: enterBottom 1s ease-in-out 4s both;
+  animation: enterBottom 1s ease-in-out 4s both; }
+
+.enterLeft {
+  -webkit-animation: enterLeft 1s ease-in-out 0s both;
+  -moz-animation: enterLeft 1s ease-in-out 0s both;
+  -ms-animation: enterLeft 1s ease-in-out 0s both;
+  animation: enterLeft 1s ease-in-out 0s both; }
+
+.enterRight {
+  -webkit-animation: enterRight 1s ease-in-out 0s both;
+  -moz-animation: enterRight 1s ease-in-out 0s both;
+  -ms-animation: enterRight 1s ease-in-out 0s both;
+  animation: enterRight 1s ease-in-out 0s both; }
+
+.enterRight1 {
+  -webkit-animation: enterRight 1s ease-in-out 1s both;
+  -moz-animation: enterRight 1s ease-in-out 1s both;
+  -ms-animation: enterRight 1s ease-in-out 1s both;
+  animation: enterRight 1s ease-in-out 1s both; }
+
+.enterRight2 {
+  -webkit-animation: enterRight 1s ease-in-out 2s both;
+  -moz-animation: enterRight 1s ease-in-out 2s both;
+  -ms-animation: enterRight 1s ease-in-out 2s both;
+  animation: enterRight 1s ease-in-out 2s both; }
+
+.fadeIn {
+  -webkit-animation: fadeIn 1s ease-in-out 0s both;
+  -moz-animation: fadeIn 1s ease-in-out 0s both;
+  -ms-animation: fadeIn 1s ease-in-out 0s both;
+  animation: fadeIn 1s ease-in-out 0s both; }
+
+.fadeIn1 {
+  -webkit-animation: fadeIn 1s ease-in-out 1s both;
+  -moz-animation: fadeIn 1s ease-in-out 1s both;
+  -ms-animation: fadeIn 1s ease-in-out 1s both;
+  animation: fadeIn 1s ease-in-out 1s both; }
+
+.fadeIn2 {
+  -webkit-animation: fadeIn 1s ease-in-out 2s both;
+  -moz-animation: fadeIn 1s ease-in-out 2s both;
+  -ms-animation: fadeIn 1s ease-in-out 2s both;
+  animation: fadeIn 1s ease-in-out 2s both; }
+
+.fadeIn3 {
+  -webkit-animation: fadeIn 1s ease-in-out 3s both;
+  -moz-animation: fadeIn 1s ease-in-out 3s both;
+  -ms-animation: fadeIn 1s ease-in-out 3s both;
+  animation: fadeIn 1s ease-in-out 3s both; }
+
+.fadeIn4 {
+  -webkit-animation: fadeIn 1s ease-in-out 4s both;
+  -moz-animation: fadeIn 1s ease-in-out 4s both;
+  -ms-animation: fadeIn 1s ease-in-out 4s both;
+  animation: fadeIn 1s ease-in-out 4s both; }
+
+.fadeIn5 {
+  -webkit-animation: fadeIn 1s ease-in-out 5s both;
+  -moz-animation: fadeIn 1s ease-in-out 5s both;
+  -ms-animation: fadeIn 1s ease-in-out 5s both;
+  animation: fadeIn 1s ease-in-out 5s both; }
+
+/*# sourceMappingURL=main.css.map */

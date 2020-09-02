@@ -1,0 +1,59 @@
+.add_size_samall{
+    font-size: 10px;
+    color: #1482e5;
+}
+p{
+    font-size: 14px;
+}
+.clear{clear: both;float: none;border: medium none;line-height:1px;}
+.clearfix:after {content: ".";display: block;height: 0;clear: both;visibility: hidden;}
+a{color:#000;text-decoration: none;cursor:pointer;}
+a:hover{ color:#1482e5;}
+.fl{ float:left!important;}
+.fr{ float:right!important;}
+.nav_top{
+  margin: 0 auto;
+}
+.banner_pic{
+  height: 380px;
+  width: 180%;
+  margin-left: -530px;
+}
+@media screen and (max-width: 930px) {
+  .clearfix {
+  font-size: 0.75em; 
+  }
+ }
+ @media screen and (max-width: 800px) {
+  .banner_pic{
+    height: 380px;
+    width: 100%;    margin-left: 0px;
+}
+  }
+@media screen and (max-width: 600px) {
+  .banner_pic{
+    height: 380px;
+    width: 100%;    margin-left: 0px;
+}
+ }
+ .active{
+     color: #1482e5;
+ }
+
+.navbar-nav{
+    flex-direction: row;
+}
+.foot_p{
+    font-size: 14px;
+    color: #838991;
+  }
+  .carousel {
+    margin-bottom: 4rem;
+  }
+.navbar-brand{
+    padding-bottom:0;
+  }
+  .add_height{
+    height: 380px;
+    width: 100%;
+  }

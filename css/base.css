@@ -1,0 +1,59 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, button, select, option, textarea, p, blockquote, th, td, a {padding: 0px;margin: 0px;font: 12px/20px "Microsoft YaHei","Arial"; color:#333333}
+*{margin:0; padding:0;list-style-type: none;outline:medium;}
+em,i{font-style: normal;}
+li{list-style-type:none;}
+.clear{clear: both;float: none;border: medium none;line-height:1px;}
+.clearfix:after {content: ".";display: block;height: 0;clear: both;visibility: hidden;}
+a{color:#000;text-decoration: none;cursor:pointer;}
+a:hover{ color:#1482e5;}
+.fl{ float:left!important;}
+.fr{ float:right!important;}
+em{color: red;}
+img{ border:none;}
+h1, h2, h3, h4, h5, h6{line-height:1;}
+/*public*/
+.cur:focus{border-color: #e60000!important;outline: 0px none!important;box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.075) inset,!important;}
+
+.btn, a,button{
+    -webkit-transition: all .25s ease-out;
+    -moz-transition: all .25s ease-out;
+    -o-transition: all .25s ease-out;
+    transition: all .25s ease-out;
+}
+img.img100{display:block;width:100%;}
+.container{width:1200px;margin:0 auto;}
+
+/*关于我们*/
+.about_me{background:#fff;}
+.about_me .nav{height:70px;}
+.about_me .nav .logo{width:125px;margin:11px 0 0 15px;}
+.about_me .nav ul{margin-right:20px;}
+.about_me .nav li{line-height:70px;margin-left:73px;float: left;}
+.about_me .nav li a{font-size:19px;}
+.about_me .nav li.active a{color:#1482e5;}
+.about_me .banner{background:url(../images/ab_banner.jpg) no-repeat;background-position:center;height:380px;}
+.about_me h3{font-size:;line-height:1;font-size:24px;}
+.about_me .introduce{margin-top:60px;}
+.about_me .introduce p{font-size:16px;text-indent: 32px;line-height:22px;margin-top:25px;}
+.about_me .relation{margin-top:80px;}
+.about_me .relation h3{margin-bottom:40px;}
+.about_me .relation .map{width:861px;}
+.about_me .relation h4{font-size:20px;color:#1482e5;line-height:1;font-weight:bold;}
+.about_me .relation h5{line-height:1;font-weight:bold;font-size:14px;margin:27px 0;}
+.about_me .relation p{font-size:14px;line-height:22px;}
+.about_me .relation .ewm{margin-top:55px;}
+.about_me .copyright{padding:33px 0;border-top:1px solid #f2f2f2;margin-top:90px;}
+.about_me .copyright p{font-size:14px;color:#838991;line-height:25px;text-align:center;}
+.product .banner{background:#1684e5 url(../images/pro_banner.jpg) no-repeat;background-position:center;height:380px;}
+.product-list{margin:50px 0 28px;position: relative;}
+.product-list::before{content:"";position:absolute;left:50%;height:100%;top:0;border-left:1px dashed #cdd7df;}
+.product-list .item{width:560px;}
+.product-list .item .inline{display:inline-block;margin-right:20px;vertical-align:middle;}
+.product-list .item .inline:last-child{max-width: 435px;margin:0;}
+.product-list .item .inline h4{font-size:22px;margin-bottom:15px;}
+.product-list .item .inline p{line-height:18px;}
+.product-list .item .inline.fs_big p{font-size:16px;line-height:22px;}
+.product-list .product_img{margin:47px 0 40px 0;width:560px;}
+
+
+

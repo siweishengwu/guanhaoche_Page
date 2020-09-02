@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html style="height:100%;">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>管好车-官网</title>
+<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css">
+<link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css">
+<link rel="stylesheet" type="text/css" href="css/base.css">
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+</head>
+<script type="text/javascript">
+    function setRootSize(){
+        var docWid = window.document.documentElement,
+            width = docWid.getBoundingClientRect().width,
+            fontSize = (width >= 2560) ? 45 : width / 2560 * 45; 
+        docWid.style.fontSize = fontSize + 'px';
+    }
+    window.addEventListener('resize', function() {
+        setRootSize();
+    }, false);
+    setRootSize();
+    function closeDiv() {
+        document.getElementById('popDiv').style.display = 'none';
+        document.getElementById('bg').style.display = 'none';
+    }
+</script>
+<body style="height:100%;">
+    <div id="popDiv" style="z-index:9999;display:block;position:absolute;">
+        <a href="javascript:closeDiv()">关闭</a>
+        <div id="rol"><a href="./recommenddetail.html"><img src="./images/float.jpg"></a></div>
+    </div>
+    <div id="bg"
+        style="display:block;background-color: #ccc;width: 100%;position:absolute;height: 100%;opacity: 0.5;z-index: 999;">
+    </div>
+<div class="home_nav">
+    <ul class="clearfix">
+        <li><a class="active" href="javascript:;">首页</a></li>
+        <li><a target="_blank" href="http://pt.ghc98.com/">平台登录</a></li>
+        <li><a href="product.html">产品下载</a></li>
+        <li><a href="about.html">关于我们</a></li>
+    </ul>
+</div>
+<!--fullpage区块-->
+<div id="index_page" class="index_page">
+<div class="section page1">
+    <img src="images/page1_i.png" class="flotage" alt="" />
+    <div class="con">
+        <img src="images/logo.png" class="logo animate fadeIn" alt="" />
+        <img src="images/page1_t1.png" class="page1_t1 animate fadeIn1" alt="" />
+        <img src="images/page1_t2.png" class="page1_t2 animate fadeIn2" alt="" />
+        <ul class="clearfix animate fadeIn3">
+            <li>
+                <h4>入驻车队</h4>
+                <div class="num" id="motorcadeCount">426</div>
+            </li>
+            <li>
+                <h4>入驻车辆</h4>
+                <div class="num" id="carCount">12355</div>
+            </li>
+            <li>
+                <h4>合作服务商</h4>
+                <div class="num" id="facilitatorCount">5359</div>
+            </li>
+        </ul>
+    </div>
+    <div class="copyright"> Copyright © ghc98.com. All Rights Reserved      备案号：粤ICP备18074164号</div>
+</div>
+<div class="section page2">
+    <img src="images/page2_i.png" class="flotage" alt="" />
+    <h3 class="page_tile enterLeft animate">客户面临痛点</h3>
+    <div class="con">
+        <ul class="clearfix">
+            <li class="animate enterTop">
+                <img src="images/page2_t1.jpg" alt="" />
+                <div class="txt">
+                    明明每趟利润都还可以，没有清晰的账，每月一盘点就是没赚到钱！
+                </div>
+            </li>
+            <li class="animate enterBottom1">
+                <div class="txt">
+                    维保、违章、证照…，管车是个细腻的技术活，我找谁来管，可靠吗？
+                </div>
+                <img src="images/page2_t2.jpg" alt="" />
+            </li>
+            <li class="animate enterTop2">
+                <img src="images/page2_t3.jpg" alt="" />
+                <div class="txt">
+                    对账、运费支付、借支报销、司机工资…，鸡皮蒜毛，财务焦头烂额！
+                </div>
+            </li>
+            <li class="animate enterBottom3">
+                <div class="txt">
+                    搞车队，缺钱周转是常态，向谁借，银行？保理？难！民间借贷？贵！
+                </div>
+                <img src="images/page2_t4.jpg" alt="" />
+            </li>
+            <li class="animate enterTop4">
+                <img src="images/page2_t5.jpg" alt="" />
+                <div class="txt">
+                    <span>金税三期，客户要票，买票，没有业务支撑，担心上游被查受牵连！</span>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="section page3">
+    <img src="images/page3_i.jpg" class="flotage" alt="" />
+    <img src="images/page3_t1.png" class="page3_t1" alt="" />
+    <h3 class="page_tile enterLeft animate">360°运营服务</h3>
+    <div class="fuwu enterRight1 animate">
+        管好车为客户提供车辆运营全流程服务：<br />
+        <span>实现业务流，信息流，资金流，票据流四流合一</span>
+    </div>
+    <dl class="introduce introduce1 fadeIn animate">
+        <dt>大数据服务</dt>
+        <dd>车队运营数据</dd>
+        <dd>司机消费数据</dd>
+        <dd>后服消费数据</dd>
+        <dd>金融风控模型</dd>
+    </dl>
+    <dl class="introduce introduce2 fadeIn1 animate">
+        <dt>智能应用</dt>
+        <dd>路由智能匹配</dd>
+        <dd>异常智能监控</dd>
+        <dd>消费智能推荐</dd>
+        <dd>资金智能管理</dd>
+    </dl>
+    <dl class="introduce introduce3 fadeIn2 animate">
+        <dt>结算管理</dt>
+        <dd>资金结算通道</dd>
+        <dd>票据管理系统</dd>
+        <dd>专业财务报表</dd>
+        <dd>金融风控服务</dd>
+    </dl>
+    <dl class="introduce introduce4 fadeIn3 animate">
+        <dt>资源共享</dt>
+        <dd>车货闲置交换</dd>
+        <dd>后服产品整合</dd>
+        <dd>联合优惠采集</dd>
+        <dd>接驳司机共享</dd>
+    </dl>
+    <dl class="introduce introduce5 fadeIn4 animate">
+        <dt>精细运营</dt>
+        <dd>实时报表呈现</dd>
+        <dd>车线成本分析</dd>
+        <dd>人车台账管理</dd>
+        <dd>分级运营管理</dd>
+    </dl>
+    <dl class="introduce introduce6 fadeIn5 animate">
+        <dt>诚信体系</dt>
+        <dd>客户信用评价</dd>
+        <dd>车队征信管理</dd>
+        <dd>司机安全档案</dd>
+        <dd>后服品质管理</dd>
+    </dl>
+</div>
+<div class="section page4">
+    <img src="images/page2_i.png" class="flotage" alt="" />
+    <img src="images/page4_t.png" class="page4_t fadeIn animate" alt="" />
+    <h3 class="page_tile enterLeft animate">强大的资源链接</h3>
+</div>
+<div class="section page5">
+    <img src="images/page2_i.png" class="flotage " alt="" />
+    <img src="images/page5_t.png" class="page5_t fadeIn1 animate" alt="" />
+    <div class="partner enterRight2 animate">
+        <h4>部分合作伙伴：</h4>
+        <ul class="partner_list"></ul>
+    </div>
+    <h3 class="page_tile enterLeft animate">协同、共享、共赢</h3>
+</div>
+</div>
+<!--fullpage区块-->
+<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
+<script type="text/javascript" src="js/jquery.fullPage.min.js"></script>
+<script type="text/javascript" src="js/szgd.js"></script>
+<script type="text/javascript">
+$(function(){
+    // 翻页
+    $('#index_page').fullpage({
+        anchors: ['page1', 'page2', 'page3', 'page4','page5'],
+        verticalCentered:false,
+        navigation:true,
+        navigationPosition:"right",
+        scrollingSpeed:1e3,
+        easing:"easeInOutCubic",
+        easingcss3:"cubic-bezier(0.84, 0, 0.06, 1)",
+        onLeave:function(index,nextIndex,direction){
+            
+        },
+        afterLoad:function(anchorLink,index){
+            $(".animate").hide();
+            $(".page"+index).find('.animate').show();
+            if(index==1){
+                $(".home_nav").removeClass('home_nav2 home_nav3');
+                clearTimeout(timer);
+                var timer = setTimeout(function(){                    
+                    $("#motorcadeCount").numberAnimate({num:'426', speed:2000});
+                    $("#carCount").numberAnimate({num:'15679', speed:2000});
+                    $("#facilitatorCount").numberAnimate({num:'386', speed:2000});
+                },3000)
+            }else if(index==3){
+                $(".home_nav").addClass('home_nav3').removeClass('home_nav2');
+            }else{
+                $(".home_nav").addClass('home_nav2').removeClass('home_nav3');
+            }
+        }
+    });
+    for(let i=1;i<25;i++){
+        $(".partner_list").append('<li><img src="images/partner_logo'+i+'.jpg" alt="" /></li>')
+    }
+});
+</script>
+</body>
+</html>
